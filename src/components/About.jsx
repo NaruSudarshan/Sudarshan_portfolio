@@ -1,3 +1,4 @@
+import myPhoto from '../assets/my_pic.jpg';
 export default function About() {
   return (
     <section id="about" className="py-16 max-w-4xl mx-auto px-4">
@@ -6,7 +7,7 @@ export default function About() {
         <div className="md:col-span-1 flex justify-center md:justify-start md:-ml-16">
           <div className="flex-shrink-0 w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden shadow-xl border-4 border-indigo-200 dark:border-cyan-800">
             <img 
-              src="src/assets/my_pic.jpg"
+              src={myPhoto}
               alt="Naru Sudarshan Reddy" 
               className="w-full h-full object-cover"
             />
